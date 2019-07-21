@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
+/* ----------------------------------------------onscreen page title */
 .header {
     background-color: #9d2f3c;
     /* burnt sienna */
@@ -11,12 +12,17 @@
     padding:0;
 }
 
+.jumbotron-text {
+    font-family: "Chicle", sans-serif;
+}
+
+/* ----------------------------------------------image */
 .image {
     background-color: #fcdf64;
     height:100px;
 }
 
-/* 
+/* ----------------------------------------------1960's colour palette
 #fcdf64 Sunbeam (yellow)
 #ffdb58 hot mustard (yellow)
 #45cea2 Shamrock (green)
