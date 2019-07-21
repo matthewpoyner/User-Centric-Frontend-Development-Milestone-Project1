@@ -11,6 +11,11 @@
     padding:0;
 }
 
+.image {
+    background-color: #fcdf64;
+    height:100px;
+}
+
 /* 
 #fcdf64 Sunbeam (yellow)
 #ffdb58 hot mustard (yellow)
