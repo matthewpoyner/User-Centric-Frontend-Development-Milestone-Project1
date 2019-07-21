@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
+
+.header {
+    background-color: #9d2f3c;
+    /* burnt sienna */
+    font-family: "Chicle", sans-serif;
+    font-size: 100px;
+    color: #fcdf64;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+/* 
+#fcdf64 Sunbeam (yellow)
+#ffdb58 hot mustard (yellow)
+#45cea2 Shamrock (green)
+#4b6c3e western cactus (dark green)
+#93c572 pistachio (light green)
+#ea7e5d burnt sienna (pinky red)
+#9d2f3c darker red
+#800080 deep purple (as the name says!)
+#ee82ee mood violet (ligyt purple)
+
+*/
