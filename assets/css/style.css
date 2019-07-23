@@ -13,9 +13,7 @@
     height: 75%;
 }
 
-
 /* ----------------------------------------------jumbotron */
-
 .jumbotron-text {
     font-family: "Chicle", sans-serif;
     color:white;
@@ -26,7 +24,7 @@
     margin: 10px;
     padding: 10px;
 }
-
+/*------------------------------------------------ RENAME THIS!*/
 .container1 {
     background-color: #fcdf64;
 }
@@ -35,8 +33,10 @@ body {
     background-color: #fcdf64;
 }
 
-
-
+.no-padding {
+    padding:0;
+}
+/*------------------------------------------------social links*/
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -56,6 +56,10 @@ body {
 .social-links li a i:hover {
     background: #e84610;
 }
+
+header-social
+
+
 /* ----------------------------------------------images */
 
 .image1 {
@@ -110,11 +114,13 @@ body {
     }
 }
 
-/* ----------------------------------------------Footer */
+/* ----------------------------------------------Footer
+
+
 
 /* ----------------------------------------------1960's colour palette
 #fcdf64 Sunbeam (yellow)
-#ffdb58 hot mustard (yellow)
+#ffdb58 hot mustard 
 #45cea2 Shamrock (green)
 #4b6c3e western cactus (dark green)
 #93c572 pistachio (light green)
@@ -123,5 +129,4 @@ body {
 #800080 deep purple (as the name says!)
 #ee82ee mood violet (light purple)
 #ff0800 candy apple red
-
 */
