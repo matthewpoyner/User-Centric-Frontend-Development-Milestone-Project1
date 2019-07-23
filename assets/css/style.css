@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
 /* ----------------------------------------------onscreen page title */
+
 .header {
     background-color: #9d2f3c;
     /* burnt sienna */
@@ -8,19 +9,69 @@
     font-size: 100px;
     color: #fcdf64;
     text-align: center;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    height: 75%;
 }
+
+
+/* ----------------------------------------------jumbotron */
 
 .jumbotron-text {
     font-family: "Chicle", sans-serif;
 }
 
-/* ----------------------------------------------image */
-.image {
-    background-color: #fcdf64;
-    height:100px;
+.jumbotron {
+    margin: 10px;
+    padding: 10px;
 }
+
+.container1 {
+    background-color: #fcdf64;
+}
+
+body {
+    background-color: #fcdf64;
+}
+
+/* ----------------------------------------------images */
+
+.image1 {
+    background-color: #45cea2;
+    margin-top: 10px;
+    border: 5px;
+    border-color:blue;
+    height: auto;
+    max-width:100%;
+    
+}
+
+.image2 {
+    background-color: #9d2f3c;
+    margin-top: 10px;
+    height: auto;
+    max-width:100%;
+}
+
+.image3 {
+    background-color: #9d2f3c;
+    margin-top: 10px;
+    height: auto;
+    max-width:100%;
+}
+
+.image4 {
+    background-color: #9d2f3c;
+    margin-top: 10px;
+    height: auto;
+    max-width:100%;
+}
+
+.top-section {
+    background-color: #fcdf64;
+
+}
+
 
 /* ----------------------------------------------1960's colour palette
 #fcdf64 Sunbeam (yellow)
