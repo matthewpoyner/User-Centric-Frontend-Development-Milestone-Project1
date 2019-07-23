@@ -19,6 +19,8 @@
 
 .jumbotron-text {
     font-family: "Chicle", sans-serif;
+    color:white;
+    background-color:#ff0800;
 }
 
 .jumbotron {
@@ -98,8 +100,8 @@ body {
     }
 }
 
-@media (min-width:769px) and (max-width:1800px){
+@media (min-width:991px) and (max-width:1800px){
     .jumbotron-text{
-        font-size:20px;
+        font-size:25px;
     }
 }
