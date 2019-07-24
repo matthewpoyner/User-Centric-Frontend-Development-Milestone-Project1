@@ -10,8 +10,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    height: 75%;
-}
+ }
 
 /* ----------------------------------------------jumbotron */
 .jumbotron-text {
@@ -56,8 +55,6 @@ body {
 .social-links li a i:hover {
     background: #e84610;
 }
-
-header-social
 
 
 /* ----------------------------------------------images */
