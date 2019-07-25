@@ -32,3 +32,5 @@ by Christopher Moore
 https://resources.stuff.co.nz/content/dam/images/1/f/x/y/9/f/image.related.StuffLandscapeSixteenByNine.1240x700.1vhbdf.png/1560042756355.jpg
 https://www.stuff.co.nz
 Stuff
+
+https://getbootstrap.com/docs/4.3/components/card/ for the bio cards

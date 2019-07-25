@@ -44,11 +44,11 @@ body {
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 12px 0 12px 0;
     border-radius: 50%;
+    border-color: blue;
     font-size: 13px;
     margin-top: 10px;
-    margin-bottom: 10px;
     line-height: 7px;
     text-align: center;
     color: #fcdf64;
@@ -60,9 +60,18 @@ body {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    color: #9d2f3c;
+    background: #fcdf64;
+    border-color: #9d2f3c;
+
 }
 
+.social-row {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    border-color: #9d2f3c;
+}
 
 /* ----------------------------------------------images */
 
@@ -117,20 +126,23 @@ body {
 
 
 
-    /* jumbotron */
-    @media (min-width:768px) and (max-width:991px) {
-        .jumbotron-text {
-            font-size: 23px;
-        }
-    }
+/* jumbotron */
 
-    @media (min-width:991px) and (max-width:1800px) {
-        .jumbotron-text {
-            font-size: 30px;
-        }
+@media (min-width:768px) and (max-width:991px) {
+    .jumbotron-text {
+        font-size: 23px;
     }
+}
 
-    /* ----------------------------------------------Footer
+@media (min-width:991px) and (max-width:1800px) {
+    .jumbotron-text {
+        font-size: 30px;
+    }
+}
+
+
+
+/* ----------------------------------------------Footer
 
 
 
