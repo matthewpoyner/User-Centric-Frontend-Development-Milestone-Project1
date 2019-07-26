@@ -17,7 +17,7 @@ header {
 .jumbotron-text {
     font-family: "Chicle", sans-serif;
     color: white;
-    background-color: #ff0800;
+    background-color: #9d2f3c;
 }
 
 .jumbotron {
@@ -39,6 +39,10 @@ body {
     padding: 0;
 }
 
+
+.card {
+    padding:0;
+}
 /*------------------------------------------------social links*/
 
 .social-links li a i {
@@ -46,7 +50,8 @@ body {
     height: 32px;
     padding: 12px 0 12px 0;
     border-radius: 50%;
-    border-color: blue;
+    border: 0.75px solid black;
+    border-color: #9d2f3c;
     font-size: 13px;
     margin-top: 10px;
     line-height: 7px;
@@ -91,7 +96,7 @@ body {
     padding: 5px;
     margin-top: 10px;
     height: auto;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .image3 {
