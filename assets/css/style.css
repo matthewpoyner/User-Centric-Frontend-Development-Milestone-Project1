@@ -12,6 +12,17 @@ header {
     padding: 0;
 }
 
+
+
+footer {
+    background-color: #9d2f3c;
+    font-family: "Chicle", sans-serif;
+    color: #fcdf64;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 /* ----------------------------------------------jumbotron */
 
 .jumbotron-text {
@@ -21,39 +32,79 @@ header {
 }
 
 .jumbotron {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    padding: 20px;
 }
 
 /*------------------------------------------------ RENAME THIS!*/
-
-.container1 {
-    background-color: #fcdf64;
-}
 
 body {
     background-color: #fcdf64;
 }
 
-.no-padding {
-    padding: 0;
+
+
+/*------------------------------------------------biography cards*/
+
+.bio {
+    margin: 0px 0px;
 }
 
+.card-fit {
+    padding: 0;
+    margin: 5px;
+}
 
 .card {
-    padding:0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0px;
 }
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border:10px;
+}
+
+.card-title {
+    background-color: #9d2f3c;
+    font-family: "Chicle", sans-serif;
+    font-size: 50px;
+    color: #fcdf64;
+    text-align: center;
+}
+
+.micky {
+   background-color:#93c572 ;
+}
+
+.micky btn {
+   background-color:#4b6c3e ;
+}
+.peter {
+   background-color:#4b6c3e ;
+}
+
+.michael {
+   background-color:#ee82ee ;
+}
+
+.davy {
+   background-color:#800080 ;
+}
+
 /*------------------------------------------------social links*/
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0 12px 0;
+    padding: 11.5px 0px;
     border-radius: 50%;
     border: 0.75px solid black;
     border-color: #9d2f3c;
     font-size: 13px;
-    margin-top: 10px;
     line-height: 7px;
     text-align: center;
     color: #fcdf64;
@@ -74,8 +125,13 @@ body {
 .social-row {
     margin-left: 0;
     margin-right: 0;
+    padding: 5px 0px;
     text-align: center;
     border-color: #9d2f3c;
+}
+
+.list-inline {
+    margin: 0;
 }
 
 /* ----------------------------------------------images */
@@ -129,7 +185,11 @@ body {
     }
 }
 
-
+@media (min-width:768px) and (max-width:767px) {
+    .headertext {
+        font-size: 75px;
+    }
+}
 
 /* jumbotron */
 
