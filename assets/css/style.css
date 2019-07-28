@@ -52,7 +52,7 @@ body {
 
 .card-fit {
     padding: 0;
-    margin:auto;
+    margin: auto;
 }
 
 .card {
@@ -60,39 +60,53 @@ body {
     height: auto;
     text-align: center;
     padding: 0px;
+    margin-bottom: 5px;
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
-    padding:10px;
+    padding: 10px;
 }
 
 .card-title {
-    
     font-family: "Chicle", sans-serif;
     color: white;
     text-align: center;
-   
 }
 
+/*biography cards-Micky-----------------------------------------------*/
 .micky {
-   background-color:#93c572 ;
+    background-color: #93c572;
 }
-
-.micky btn {
-   background-color:#4b6c3e ;
+.mdbutton {
+    background-color: #4b6c3e;
+    border: 0px;
 }
+/*biography cards-Peter-----------------------------------------------*/
 .peter {
-   background-color:#4b6c3e ;
+    background-color: #4b6c3e;
 }
-
+.ptbutton {
+    background-color: #93c572;
+    border: 0px;
+}
+/*biography cards-Michael-----------------------------------------------*/
 .michael {
-   background-color:#ee82ee ;
+    background-color: #ee82ee;
+}
+.mnbutton {
+    background-color: #800080;
+    border: 0px;
+}
+/*biography cards-Davy-----------------------------------------------*/
+.davy {
+    background-color: #800080;
 }
 
-.davy {
-   background-color:#800080 ;
+.djbutton {
+    background-color: #ee82ee;
+    border: 0px;
 }
 
 /*------------------------------------------------social links*/
@@ -136,12 +150,11 @@ body {
 
 /* ----------------------------------------------images */
 
+
 .image1 {
     background-color: #93c572;
+    padding: 5px;   
     margin-top: 10px;
-    border: 5px;
-    padding: 5px;
-    border-color: blue;
     height: auto;
     max-width: 100%;
 
@@ -204,6 +217,7 @@ body {
         font-size: 28px;
     }
 }
+
 @media (min-width:768px) and (max-width:991px) {
     .jumbotron-text {
         font-size: 30px;
@@ -235,6 +249,7 @@ body {
         font-size: 28px;
     }
 }
+
 @media (min-width:768px) and (max-width:991px) {
     .card-title {
         font-size: 30px;
@@ -251,6 +266,22 @@ body {
     .card-title {
         font-size: 34px;
     }
+}
+
+
+.iframe-container{
+  position: relative;
+  width: 75%;
+  padding-bottom: 56.25%; 
+  height: 0;
+ 
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
