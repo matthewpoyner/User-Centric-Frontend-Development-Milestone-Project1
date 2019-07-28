@@ -52,7 +52,7 @@ body {
 
 .card-fit {
     padding: 0;
-    margin: 5px;
+    margin:auto;
 }
 
 .card {
@@ -65,15 +65,15 @@ body {
 .card-img-top {
     width: 100%;
     height: auto;
-    border:10px;
+    padding:10px;
 }
 
 .card-title {
-    background-color: #9d2f3c;
+    
     font-family: "Chicle", sans-serif;
-    font-size: 50px;
-    color: #fcdf64;
+    color: white;
     text-align: center;
+   
 }
 
 .micky {
@@ -191,20 +191,67 @@ body {
     }
 }
 
-/* jumbotron */
+/* jumbotron text size*/
 
-@media (min-width:768px) and (max-width:991px) {
+@media (min-width:1px) and (max-width:575px) {
     .jumbotron-text {
-        font-size: 23px;
+        font-size: 26px;
     }
 }
 
-@media (min-width:991px) and (max-width:1800px) {
+@media (min-width:576px) and (max-width:767px) {
+    .jumbotron-text {
+        font-size: 28px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
     .jumbotron-text {
         font-size: 30px;
     }
 }
 
+@media (min-width:992px) and (max-width:1199px) {
+    .jumbotron-text {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:4000px) {
+    .jumbotron-text {
+        font-size: 34px;
+    }
+}
+
+/* card title text size*/
+
+@media (min-width:1px) and (max-width:575px) {
+    .card-title {
+        font-size: 26px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .card-title {
+        font-size: 28px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .card-title {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .card-title {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:4000px) {
+    .card-title {
+        font-size: 34px;
+    }
+}
 
 
 /* ----------------------------------------------Footer
