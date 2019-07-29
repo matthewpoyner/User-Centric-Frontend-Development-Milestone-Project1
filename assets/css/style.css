@@ -10,9 +10,8 @@ header {
     text-align: center;
     margin: 0;
     padding: 0;
+    position:static;
 }
-
-
 
 footer {
     background-color: #9d2f3c;
@@ -42,8 +41,6 @@ body {
     background-color: #fcdf64;
 }
 
-
-
 /*------------------------------------------------biography cards*/
 
 .bio {
@@ -60,7 +57,7 @@ body {
     height: auto;
     text-align: center;
     padding: 0px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 .card-img-top {
@@ -76,30 +73,40 @@ body {
 }
 
 /*biography cards-Micky-----------------------------------------------*/
+
 .micky {
     background-color: #93c572;
 }
+
 .mdbutton {
     background-color: #4b6c3e;
     border: 0px;
 }
+
 /*biography cards-Peter-----------------------------------------------*/
+
 .peter {
     background-color: #4b6c3e;
 }
+
 .ptbutton {
     background-color: #93c572;
     border: 0px;
 }
+
 /*biography cards-Michael-----------------------------------------------*/
+
 .michael {
     background-color: #ee82ee;
 }
+
 .mnbutton {
     background-color: #800080;
     border: 0px;
 }
+
 /*biography cards-Davy-----------------------------------------------*/
+
 .davy {
     background-color: #800080;
 }
@@ -150,14 +157,11 @@ body {
 
 /* ----------------------------------------------images */
 
-
 .image1 {
     background-color: #93c572;
-    padding: 5px;   
+    padding: 5px;
     margin-top: 10px;
     height: auto;
-    max-width: 100%;
-
 }
 
 .image2 {
@@ -165,7 +169,6 @@ body {
     padding: 5px;
     margin-top: 10px;
     height: auto;
-    min-width: 100%;
 }
 
 .image3 {
@@ -173,7 +176,6 @@ body {
     padding: 5px;
     margin-top: 10px;
     height: auto;
-    max-width: 100%;
 }
 
 .image4 {
@@ -181,7 +183,24 @@ body {
     padding: 5px;
     margin-top: 10px;
     height: auto;
-    max-width: 100%;
+}
+
+.carousel-item {
+    Width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.carousel-control-prev {
+    width: 50 px;
+}
+
+.carousel-control-next {
+    width: 50 px;
+}
+
+.mc {
+    padding: 0;
 }
 
 .top-section {
@@ -268,22 +287,35 @@ body {
     }
 }
 
-
-.iframe-container{
-  position: relative;
-  width: 75%;
-  padding-bottom: 56.25%; 
-  height: 0;
- 
-}
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.slide {
+    padding: 0;
 }
 
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 10px;
+
+
+
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+
+.carousel-item active {
+    margin: 0;
+}
 
 /* ----------------------------------------------Footer
 
