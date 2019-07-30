@@ -46,3 +46,7 @@ https://getbootstrap.com/docs/4.3/components/card/ for the bio cards
 Code used for responsive embeded YouTube videos
 by Tips With Punch
 https://youtu.be/9YffrCViTVk 
+
+## Bootstrap
+
+Model
