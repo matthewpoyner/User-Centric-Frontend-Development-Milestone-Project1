@@ -11,6 +11,7 @@
     background-color: #9d2f3c;
     margin-top:0;
     font:10px;
+    color:#fcdf64;
     }
 .nav {
     padding:0;
@@ -85,24 +86,23 @@ h2 {
     margin: 0px 0px;
 }
 
-.card-fit {
+/* .card-fit {
     padding: 0;
     margin: auto;
-}
+}*/
 
 .card {
-    width: 100%;
+    width: 90%;
     height: auto;
     text-align: center;
-    padding: 0px;
-    margin: 5px;
+    padding: 5px;
+    margin: 10px;
     border-radius: 10%;
 }
 
 .card-img-top {
     width: 100%;
     height: auto;
-   margin: 10px;
     border-radius: 15%;
 }
 
@@ -242,7 +242,7 @@ h2 {
     margin-right: 0;
     padding: 5px 0px;
     text-align: center;
-    border-color: #fcdf64;
+    border: #fcdf64 solid;
 }
 
 .list-inline {
