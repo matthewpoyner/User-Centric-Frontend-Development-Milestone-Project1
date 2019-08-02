@@ -1,44 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
 /* ----------------------------------------------onscreen page title */
+
 .navbar {
     background-color: #9d2f3c;
     color: #fcdf64;
-    position:fixed;
-    width:100%;
+    position: fixed;
+    width: 100%;
     padding: 8px 0px 8px;
-    z-index:1;
-    top:0;
+    z-index: 1;
+    top: 0;
 }
- .bottom {
-     padding:0px;
- }
+
 .navbar-toggler {
     color: #9d2f3c !important;
-    margin-right:15px;
-    background-color:  #fcdf64;
+    margin-right: 15px;
+    background-color: #fcdf64;
 }
+
 .nav-link {
     color: #fcdf64 !important;
 }
 
 .nav-item {
-    color:#fcdf64;
-    text-align:center;
+    color: #fcdf64;
+    text-align: center;
 }
+
 .nav {
-    padding: 0;
+    margin-right: 20px;
+    padding: 0px;
     background-color: #9d2f3c;
 }
 
 .navbar-nav {
-    padding: 0;
+    padding: 0px;
 }
 
 .navbar-brand {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
-    font-size:20px;
+    font-size: 20px;
     color: #fcdf64;
     text-align: center;
 }
@@ -49,7 +51,7 @@ header {
     color: #fcdf64;
     text-align: center;
     margin: 50px 0px 0px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
 footer {
@@ -59,6 +61,14 @@ footer {
     text-align: center;
     margin: 0px;
     padding: 0px;
+}
+
+.footer-col {
+    padding: 0px;
+}
+
+ul {
+    width: 100%;
 }
 
 /* ----------------------------------------------jumbotron */
@@ -72,7 +82,7 @@ footer {
 .jumbotron {
     margin: 0px 10px 10px 10px;
     padding: 20px;
-   
+
     border-radius: 7.5%;
 }
 
@@ -82,7 +92,7 @@ body {
     background-color: #fcdf64;
 }
 
-h2 {
+.h2 {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #9d2f3c;
@@ -114,6 +124,7 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
+    font-size: 30px;
 }
 
 .btn-primary {
@@ -143,7 +154,8 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
-
+    font-size: 30px;
+    margin: 8px 0px;
 }
 
 .micky-modal-footer {
@@ -171,8 +183,11 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
+    font-size: 30px;
+    margin: 8px 0px;
 
 }
+
 .peter-modal-footer {
     border-top: 3px solid #93c572;
 }
@@ -196,8 +211,11 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
+    font-size: 30px;
+    margin: 8px 0px;
 
 }
+
 .michael-modal-footer {
     border-top: 3px solid #800080;
 }
@@ -221,24 +239,29 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
+    font-size: 30px;
+    margin: 8px 0px;
+
 
 }
+
 .davy-modal-footer {
     border-top: 3px solid #ee82ee;
 }
 
 .davy-button {
-    background-color: #ee82ee ;
+    background-color: #ee82ee;
     border: 0px;
 }
 
-/*------------------------------------------------biography cards*/
+/*----------------------------------------------------------------------biography cards*/
+
 .bio {
     margin: 0px 0px;
 }
 
 .padding {
-    padding:15px;
+    padding: 15px;
 }
 
 .card {
@@ -249,13 +272,15 @@ theband {
 }
 
 .card-text {
-    color:white;
+    padding: 20px 0px;
+    color: white;
 }
+
 .card-img-top {
     width: 100%;
     height: auto;
     border-radius: 15%;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .card-title {
@@ -264,7 +289,7 @@ theband {
     color: #fcdf64;
 }
 
-/*------------------------------------------------social links*/
+/*---------------------------------------------------------------------------social links*/
 
 .social-links li a i {
     width: 32px;
@@ -291,6 +316,31 @@ theband {
 
 }
 
+.bsocial-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 11.5px 0px;
+    border-radius: 50%;
+    border: 0.75px solid black;
+    border-color: #fcdf64;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fcdf64;
+    background: #9d2f3c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bsocial-links li a i:hover {
+    color: #9d2f3c;
+    background: #fcdf64;
+    border-color: #fcdf64;
+
+}
+
 .top-social-row {
     margin-left: 0;
     margin-right: 0;
@@ -299,39 +349,40 @@ theband {
     border-color: #9d2f3c;
 }
 
- .btm-social-row {
-    width:100%;
-    margin:0px;
-    padding:0px;
+
+.btm-social-row {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px 0px;
     text-align: center;
-    border: #fcdf64 solid;
-} 
+    border-color: #9d2f3c;
+}
 
 .list-inline {
     margin: 0;
 }
 
-/* ----------------------------------------------images */
+/* ------------------------------------------------------------------------------images */
 
 .carousel-control-prev-icon {
-    background-color:#9d2f3c;
-    margin-right:10px;
+    background-color: #9d2f3c;
+    margin-right: 10px;
 }
 
 .carousel-control-next-icon {
-   background-color:#9d2f3c; 
-   margin-left:10px;
+    background-color: #9d2f3c;
+    margin-left: 10px;
 }
 
 
 .carousel-indicators li {
-  background-color:#9d2f3c 
+    background-color: #fcdf64
 }
 
 .image1 {
     background-color: #93c572;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px 0px;
     height: auto;
     border-radius: 7.5%;
 }
@@ -339,7 +390,7 @@ theband {
 .image2 {
     background-color: #4b6c3e;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px 0px;
     height: auto;
     border-radius: 7.5%;
 }
@@ -347,7 +398,7 @@ theband {
 .image3 {
     background-color: #800080;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px 0px;
     height: auto;
     border-radius: 7.5%;
 }
@@ -355,7 +406,7 @@ theband {
 .image4 {
     background-color: #ee82ee;
     padding: 5px;
-    margin-top: 10px;
+    margin: 10px 0px;
     height: auto;
     border-radius: 7.5%;
 }
@@ -382,23 +433,41 @@ theband {
     background-color: #fcdf64;
 }
 
-/* ----------------------------------------------media queries font size */
+/* ------------------------------------------------------media queries font size */
 
-/* Header */
+/* ------------------------------------------------------header text*/
 
-@media (min-width:0px) and (max-width:767px) {
+@media (min-width:1px) and (max-width:575px) {
     .headertext {
-        font-size: 75px;
-                  }
-}
-
-@media (min-width:768px) and (max-width:767px) {
-    .headertext {
-        font-size: 75px;
+        font-size: 40px;
     }
 }
 
-/* jumbotron text size*/
+@media (min-width:576px) and (max-width:767px) {
+    .headertext {
+        font-size: 45px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .headertext {
+        font-size: 60px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .headertext {
+        font-size: 70px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:4000px) {
+    .headertext {
+        font-size: 80px;
+    }
+}
+
+/* ------------------------------------------------------------jumbotron text size*/
 
 @media (min-width:1px) and (max-width:575px) {
     .jumbotron-text {
@@ -430,7 +499,7 @@ theband {
     }
 }
 
-/* card title text size*/
+/* -----------------------------------------------------------------card title text size*/
 
 @media (min-width:1px) and (max-width:575px) {
     .card-title {
@@ -462,6 +531,36 @@ theband {
     }
 }
 
+/*-------------------------------------------------------------------header size */
+@media (min-width:1px) and (max-width:575px) {
+    .h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .h2 {
+        font-size: 45px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+   .h2 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .h2 {
+        font-size: 70px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:4000px) {
+    h2 {
+        font-size: 80px;
+    }
+}
 .slide {
     padding: 0;
 }
@@ -490,8 +589,13 @@ theband {
 
 /* ----------------------------------------------contact form */
 
+.advert {
+    padding:15px 0px;
+    text-align:center;
+}
 .sign-up-btn {
     background-color: #9d2f3c;
+    margin-bottom: 15px;
 }
 
 .center-form {
