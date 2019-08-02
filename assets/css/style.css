@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
-/* ----------------------------------------------onscreen page title */
+/* ----------------------------------------------navbar */
 
 .navbar {
     background-color: #9d2f3c;
@@ -13,13 +13,13 @@
 }
 
 .navbar-toggler {
-    color: #9d2f3c !important;
+    color: #9d2f3c !important; /* I used !important to overide the default bootstrap coloring- this is only used for colour */
     margin-right: 15px;
     background-color: #fcdf64;
 }
 
 .nav-link {
-    color: #fcdf64 !important;
+    color: #fcdf64 !important; /* I used !important to overide the default bootstrap coloring- this is only used for colour */
 }
 
 .nav-item {
@@ -45,6 +45,7 @@
     text-align: center;
 }
 
+/* ----------------------------------------------header */
 header {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
@@ -119,7 +120,7 @@ theband {
     padding: 0px;
 }
 
-/*Modal--------------------------------------------------------------*/
+/*------------------------------------------------------------Modal*/
 
 .modal-title {
     font-family: "Chicle", sans-serif;
@@ -141,7 +142,8 @@ theband {
     margin: 5px 0px;
 }
 
-/*biography cards-Micky-----------------------------------------------*/
+/*-----------------------------------------------biography cards-Micky*/
+/*--utilising bootstrap card component*/
 
 .micky {
     background-color: #93c572;
@@ -170,8 +172,8 @@ theband {
 
 }
 
-/*biography cards-Peter-----------------------------------------------*/
-
+/*-----------------------------------------------biography cards-Peter*/
+/*--utilising bootstrap card component*/
 .peter {
     background-color: #4b6c3e;
 }
@@ -198,8 +200,8 @@ theband {
     border: 0px;
 }
 
-/*biography cards-Michael-----------------------------------------------*/
-
+/*----------------------------------------------biography cards-Michael*/
+/*--utilising bootstrap card component*/
 .michael {
     background-color: #ee82ee;
 }
@@ -226,8 +228,8 @@ theband {
     border: 0px;
 }
 
-/*biography cards-Davy-----------------------------------------------*/
-
+/*-----------------------------------------------biography cards-Davy*/
+/*--utilising bootstrap card component*/
 .davy {
     background-color: #800080;
 }
@@ -255,8 +257,8 @@ theband {
     border: 0px;
 }
 
-/*----------------------------------------------------------------------biography cards*/
-
+/*----------------------------------------------------------------------biography cards global*/
+/*--utilising bootstrap card component*/
 .bio {
     margin: 0px 0px;
 }
@@ -288,6 +290,116 @@ theband {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #fcdf64;
+}
+/* ------------------------------------------------------------------------------images & carousel */
+/*--utilising bootstrap carousel component*/
+.carousel-control-prev-icon {
+    background-color: #9d2f3c;
+    margin-right: 10px;
+}
+
+.carousel-control-next-icon {
+    background-color: #9d2f3c;
+    margin-left: 10px;
+}
+
+
+.carousel-indicators li {
+    background-color: #fcdf64
+}
+
+.image1 {
+    background-color: #93c572;
+    padding: 5px;
+    margin: 10px 0px;
+    height: auto;
+    border-radius: 7.5%;
+}
+
+.image2 {
+    background-color: #4b6c3e;
+    padding: 5px;
+    margin: 10px 0px;
+    height: auto;
+    border-radius: 7.5%;
+}
+
+.image3 {
+    background-color: #800080;
+    padding: 5px;
+    margin: 10px 0px;
+    height: auto;
+    border-radius: 7.5%;
+}
+
+.image4 {
+    background-color: #ee82ee;
+    padding: 5px;
+    margin: 10px 0px;
+    height: auto;
+    border-radius: 7.5%;
+}
+
+.carousel-item {
+    Width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel-control-prev {
+    width: 50px;
+}
+
+.carousel-control-next {
+    width: 50px;
+}
+
+.mc {
+    padding: 0;
+}
+
+.top-section {
+    background-color: #fcdf64;
+}
+.slide {
+    padding: 0;
+}
+/*---------------------------------------------------------------------------video*/
+
+.iframe-container {
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    padding: 0;
+}
+
+
+.carousel-item active {
+    margin: 0;
+}
+/* ----------------------------------------------contact form */
+
+.advert {
+    padding:15px 0px;
+    text-align:center;
+}
+.sign-up-btn {
+    background-color: #9d2f3c;
+    margin-bottom: 15px;
+}
+
+.center-form {
+    margin: 0px 15%;
 }
 
 /*---------------------------------------------------------------------------social links*/
@@ -363,80 +475,10 @@ theband {
     margin: 0;
 }
 
-/* ------------------------------------------------------------------------------images */
 
-.carousel-control-prev-icon {
-    background-color: #9d2f3c;
-    margin-right: 10px;
-}
+/* ------------------------------------------------------media queries*/
 
-.carousel-control-next-icon {
-    background-color: #9d2f3c;
-    margin-left: 10px;
-}
-
-
-.carousel-indicators li {
-    background-color: #fcdf64
-}
-
-.image1 {
-    background-color: #93c572;
-    padding: 5px;
-    margin: 10px 0px;
-    height: auto;
-    border-radius: 7.5%;
-}
-
-.image2 {
-    background-color: #4b6c3e;
-    padding: 5px;
-    margin: 10px 0px;
-    height: auto;
-    border-radius: 7.5%;
-}
-
-.image3 {
-    background-color: #800080;
-    padding: 5px;
-    margin: 10px 0px;
-    height: auto;
-    border-radius: 7.5%;
-}
-
-.image4 {
-    background-color: #ee82ee;
-    padding: 5px;
-    margin: 10px 0px;
-    height: auto;
-    border-radius: 7.5%;
-}
-
-.carousel-item {
-    Width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.carousel-control-prev {
-    width: 50px;
-}
-
-.carousel-control-next {
-    width: 50px;
-}
-
-.mc {
-    padding: 0;
-}
-
-.top-section {
-    background-color: #fcdf64;
-}
-
-/* ------------------------------------------------------media queries font size */
-
-/* ------------------------------------------------------header text*/
+/* ------------------------------------------------------header text size*/
 
 @media (min-width:1px) and (max-width:575px) {
     .headertext {
@@ -532,7 +574,7 @@ theband {
     }
 }
 
-/*-------------------------------------------------------------------header size */
+/*-------------------------------------------------------------------h2 size */
 @media (min-width:1px) and (max-width:575px) {
     .h2 {
         font-size: 40px;
@@ -562,46 +604,8 @@ theband {
         font-size: 80px;
     }
 }
-.slide {
-    padding: 0;
-}
-
-.iframe-container {
-    position: relative;
-    width: 90%;
-    padding-bottom: 56.25%;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
-.iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90%;
-    height: 100%;
-    padding: 0;
-}
 
 
-.carousel-item active {
-    margin: 0;
-}
-
-/* ----------------------------------------------contact form */
-
-.advert {
-    padding:15px 0px;
-    text-align:center;
-}
-.sign-up-btn {
-    background-color: #9d2f3c;
-    margin-bottom: 15px;
-}
-
-.center-form {
-    margin: 0px 15%;
-}
 
 
 
