@@ -2,24 +2,41 @@
 
 /* ----------------------------------------------onscreen page title */
 
-.fa-bars {
-    font-size: 48px;
-    color: #fcdf64;
-   }
-
 .navbar {
     background-color: #9d2f3c;
-    margin-top:0;
-    font:10px;
-    color:#fcdf64;
-    }
-.nav {
-    padding:0;
-     background-color: #9d2f3c;
-}    
-.navbar-nav {
-    padding:0;
+    margin-bottom:0px;
+    color: #fcdf64;
+    position:fixed;
+    width:100%;
+    padding: 8px 0px 8px;
+    z-index:1;
 }
+
+.navbar-toggler-icon {
+    color: #fcdf64 !important;
+}
+
+.navbar-toggler {
+    color: #fcdf64 !important;
+    margin-right:15px;
+}
+.nav-link {
+    color: #fcdf64 !important;
+}
+
+.nav-item {
+    color:#fcdf64;
+    text-align:center;
+}
+.nav {
+    padding: 0;
+    background-color: #9d2f3c;
+}
+
+.navbar-nav {
+    padding: 0;
+}
+
 .navbar-brand {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
@@ -27,6 +44,7 @@
     color: #fcdf64;
     text-align: center;
 }
+
 header {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
@@ -35,7 +53,7 @@ header {
     /* Sunbeam (yellow) */
     text-align: center;
     margin: 0px;
-    padding: 0px;
+    padding-top: 25px;
     width: 100%;
     height: 1.2em;
     z-index: 1;
@@ -61,7 +79,7 @@ footer {
 .jumbotron {
     margin: 0px 10px 10px 10px;
     padding: 20px;
-    top: 160px;
+   
     border-radius: 7.5%;
 }
 
@@ -75,41 +93,15 @@ h2 {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #9d2f3c;
-    padding:0;
-    margin:5px 0px;
+    padding: 20px 0px;
+    margin: 5px 0px;
 }
 
 
-/*------------------------------------------------biography cards*/
 
-.bio {
-    margin: 0px 0px;
-}
 
-/* .card-fit {
-    padding: 0;
-    margin: auto;
-}*/
-
-.card {
-    width: 90%;
-    height: auto;
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 10%;
-}
-
-.card-img-top {
-    width: 100%;
-    height: auto;
-    border-radius: 15%;
-}
-
-.card-title {
-    font-family: "Chicle", sans-serif;
-    text-align: center;
-    color: #fcdf64;
+theband {
+    padding: 0px;
 }
 
 /*Modal--------------------------------------------------------------*/
@@ -139,6 +131,9 @@ h2 {
     background-color: #93c572;
 }
 
+.micky-card {
+    padding-bottom:15px;
+}
 .micky-modal-header {
     border-bottom: 3px solid #4b6c3e;
 }
@@ -200,6 +195,38 @@ h2 {
 .djbutton {
     background-color: #ee82ee;
     border: 0px;
+}
+
+/*------------------------------------------------biography cards*/
+.bio {
+    margin: 0px 0px;
+}
+
+.padding {
+    padding:15px;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    border-radius: 10%;
+}
+
+.card-text {
+    color:white;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+    margin-top:10px;
+}
+
+.card-title {
+    font-family: "Chicle", sans-serif;
+    text-align: center;
+    color: #fcdf64;
 }
 
 /*------------------------------------------------social links*/
@@ -390,7 +417,7 @@ h2 {
 }
 
 .videos {
-    padding:0px;
+    padding: 0px;
 }
 
 .iframe-container {
@@ -414,15 +441,15 @@ h2 {
 .carousel-item active {
     margin: 0;
 }
+
 /* ----------------------------------------------contact form */
 
-
 .sign-up-btn {
-    background-color:#9d2f3c;
+    background-color: #9d2f3c;
 }
 
 .center-form {
-    margin:0px 15%;
+    margin: 0px 15%;
 }
 
 
