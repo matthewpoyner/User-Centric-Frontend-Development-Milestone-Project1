@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle&display=swap');
 
 /* ----------------------------------------------onscreen page title */
-
 .navbar {
     background-color: #9d2f3c;
-    margin-bottom:0px;
+
     color: #fcdf64;
     position:fixed;
     width:100%;
@@ -37,7 +36,7 @@
 .navbar-brand {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
-    font-size: 3em;
+    font-size:20px;
     color: #fcdf64;
     text-align: center;
 }
@@ -45,15 +44,11 @@
 header {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
-    font-size: 100px;
     color: #fcdf64;
     /* Sunbeam (yellow) */
     text-align: center;
-    margin: 0px;
-    padding-top: 25px;
-    width: 100%;
-    height: 1.2em;
-    z-index: 1;
+    margin: 50px 0px 0px;
+    padding-bottom:0px;
 }
 
 footer {
@@ -80,7 +75,7 @@ footer {
     border-radius: 7.5%;
 }
 
-/*------------------------------------------------ RENAME THIS!*/
+/*------------------------------------------------ titles and headers!*/
 
 body {
     background-color: #fcdf64;
@@ -94,7 +89,18 @@ h2 {
     margin: 5px 0px;
 }
 
+h3 {
+    font-family: "Chicle", sans-serif;
+    color: #9d2f3c;
+    padding: 0px 0px 20px 20px;
+    margin: 5px 0px;
+}
 
+p {
+    color: #9d2f3c;
+    padding: 0px 0px 20px 20px;
+    margin: 5px 0px;
+}
 
 
 theband {
@@ -261,13 +267,13 @@ theband {
     border-color: #9d2f3c;
 }
 
-.btm-social-row {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 5px 0px;
+ .btm-social-row {
+    width:100%;
+    margin:0px;
+    padding:0px;
     text-align: center;
     border: #fcdf64 solid;
-}
+} 
 
 .list-inline {
     margin: 0;
@@ -336,7 +342,7 @@ theband {
 @media (min-width:0px) and (max-width:767px) {
     .headertext {
         font-size: 75px;
-    }
+                  }
 }
 
 @media (min-width:768px) and (max-width:767px) {
@@ -413,15 +419,12 @@ theband {
     padding: 0;
 }
 
-.videos {
-    padding: 0px;
-}
-
 .iframe-container {
     position: relative;
     width: 90%;
     padding-bottom: 56.25%;
-    margin: 0px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .iframe-container iframe {
