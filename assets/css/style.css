@@ -96,8 +96,9 @@ body {
     font-family: "Chicle", sans-serif;
     text-align: center;
     color: #9d2f3c;
-    padding: 20px 0px;
-    margin: 5px 0px;
+    padding: 60px 0px 20px;
+    margin: 60px 0px 5px;
+    overflow:auto;
 }
 
 h3 {
