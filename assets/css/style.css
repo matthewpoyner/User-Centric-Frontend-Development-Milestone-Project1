@@ -10,7 +10,9 @@
     z-index:1;
     top:0;
 }
-
+ .bottom {
+     padding:0px;
+ }
 .navbar-toggler {
     color: #9d2f3c !important;
     margin-right:15px;
@@ -45,7 +47,6 @@ header {
     background-color: #9d2f3c;
     font-family: "Chicle", sans-serif;
     color: #fcdf64;
-    /* Sunbeam (yellow) */
     text-align: center;
     margin: 50px 0px 0px;
     padding-bottom:0px;
@@ -60,10 +61,6 @@ footer {
     padding: 0px;
 }
 
-.bottom {
-    width:100%;
-    background-color: #9d2f3c;
-}
 /* ----------------------------------------------jumbotron */
 
 .jumbotron-text {
@@ -315,6 +312,21 @@ theband {
 }
 
 /* ----------------------------------------------images */
+
+.carousel-control-prev-icon {
+    background-color:#9d2f3c;
+    margin-right:10px;
+}
+
+.carousel-control-next-icon {
+   background-color:#9d2f3c; 
+   margin-left:10px;
+}
+
+
+.carousel-indicators li {
+  background-color:#9d2f3c 
+}
 
 .image1 {
     background-color: #93c572;
